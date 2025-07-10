@@ -45,6 +45,9 @@ main{
     cursor: pointer;
     color: #000;
 }
+.section-paddiong{
+    padding: 50px 0;
+}
   /********************************************/
  /************ header area css  1 ************/
 /********************************************/
@@ -84,4 +87,32 @@ nav ul li a{
 .banner-content h2{
     font-size: 65px;
     font-weight: bold;
+}
+
+  /********************************************/
+ /************ action area css  2 ************/
+/********************************************/
+.see-action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.action-text{
+    padding: 30px 30px ;
+    width: 42%;
+}
+.action-text h4{
+    font-size: 42px;
+    font-weight: bold;
+}
+.action-text p{
+    font-size: 24px;
+    color: #252432;
+    font-weight: 400;
+}
+.action-img img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
 }
