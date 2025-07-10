@@ -46,7 +46,7 @@ main{
     color: #000;
 }
 .section-paddiong{
-    padding: 50px 0;
+    padding: 60px 0;
 }
   /********************************************/
  /************ header area css  1 ************/
@@ -116,3 +116,42 @@ nav ul li a{
     height: auto;
     border-radius: 20px;
 }
+   /********************************************/
+ /******** productive area css  3 ************/
+/********************************************/
+.product{
+    background: #E5E7FF;
+    border-radius: 15px;
+}
+.productive{
+    text-align: center;
+    margin: 50px 140px;
+    padding: 30px 30px;
+}
+.productive h2{
+    font-weight: bold;
+    font-size: 32px;
+    color: #252432;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+}
+.user-text h1{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.user-text p{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    color: #252432;
+}
+
+
+
+
