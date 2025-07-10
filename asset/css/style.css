@@ -1,0 +1,87 @@
+
+
+.raleway-normal{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1 h2 h3 h4 h5 h6 p{
+	margin: 0;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+main{
+    max-width: 1140px;
+    margin: auto;
+}
+.logo-color{
+    color:#d8bf13 ;
+}
+.primary{
+    color: #4E47FF;
+}
+.secondary{
+    color: #252432;
+}
+.btn-style{
+    font-size: 18px ;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 30px;
+    background: #4E47FF;
+    border-radius: 10px;
+    border: none;
+    transition: .5s;
+}
+.btn-style:hover{
+    background: #d8bf13;
+    cursor: pointer;
+    color: #000;
+}
+  /********************************************/
+ /************ header area css  1 ************/
+/********************************************/
+body{
+    background: #F5F8FF;
+}
+.header{
+    background: url(../images/background.jpg) no-repeat scroll 0 0 /100% 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 150px;
+}
+.nave-logo{
+    font-weight: bold;
+    font-size: 34px;
+    color: #4E47FF;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+   text-decoration: none;
+   font-size: 20px;
+}
+/* banner area style  */
+.banner{
+   padding: 30px;
+}
+.banner-content{
+    margin: 90px 140px;
+    text-align: center;
+}
+.banner-content h2{
+    font-size: 65px;
+    font-weight: bold;
+}
