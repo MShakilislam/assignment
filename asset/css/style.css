@@ -55,7 +55,7 @@ body{
     background: #F5F8FF;
 }
 .header{
-    background: url(../images/background.jpg) no-repeat scroll 0 0 /100% 100%;
+    background: url(../images/Hero-bg.png) no-repeat scroll 0 0 /100% 100%;
 }
 nav{
     display: flex;
@@ -173,6 +173,7 @@ nav ul li a{
     box-sizing: border-box;
     background: #fff;
     box-shadow: 4px 4px 10px grey;
+    cursor: pointer;
 }
 .card-text h4{
     font-size: 26px;
@@ -210,4 +211,68 @@ nav ul li a{
     font-size: 12px;
     padding-top: 5px;
     color: #B3B3B3;
+}
+   /********************************************/
+  /*************focuse area css  5 ************/
+/********************************************/
+.focus-area{
+    background: #fff;
+    border-radius: 10px;
+}
+.section-header{
+    text-align: center;
+}
+.section-header h2{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    padding: 0;
+    margin: 0;
+}
+
+.focus-img{
+    margin-top: 35px;
+}
+.focus-img img{
+    border-radius: 20px;
+}
+   /********************************************/
+  /******* touch email area css  6 ************/
+/********************************************/
+
+
+
+
+.email-section{
+   display: flex;
+   gap: 40px;
+}
+.subscribe h2{
+    font-size: 90px;
+    font-weight: bold;
+    width: 75%;
+}
+.right-maile{
+    width: 30%;
+}
+.right-maile form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.right-maile label{
+    font-weight: 600;
+}
+.right-maile form input[type="email"], .right-maile form input[type="text"], .right-maile textarea {
+    width: 88%;
+    display: block;
+    padding: 15px 20px;
+    border: none;
+    box-shadow: 0px 0px 6px 1px gray;
+    border-radius: 10px;
+}
+.right-maile button{
+    display: block;
+    width: 100%;
 }
