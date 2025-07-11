@@ -48,6 +48,10 @@ main{
 .section-paddiong{
     padding: 60px 0;
 }
+body{
+    padding: 0;
+    margin: 0;
+}
   /********************************************/
  /************ header area css  1 ************/
 /********************************************/
@@ -61,7 +65,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 40px 150px;
+    padding: 40px 150px;
 }
 .nave-logo{
     font-weight: bold;
@@ -242,8 +246,6 @@ nav ul li a{
 /********************************************/
 
 
-
-
 .email-section{
    display: flex;
    gap: 40px;
@@ -275,4 +277,42 @@ nav ul li a{
 .right-maile button{
     display: block;
     width: 100%;
+}
+   /********************************************/
+  /************ footer area css  7 ************/
+/********************************************/
+footer{
+   text-align: center;
+   background: #fff;
+}
+.footer-title{
+    width: 45%;
+    margin: auto;
+}
+.footer-title h1{
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+}
+.footer-title p{
+    font-weight: 400;
+    color: #8987A1;
+    font-size: 18px;
+}
+.socile-link ul {
+    display: flex;
+    justify-content: center;
+
+}
+.socile-link ul li a{
+    display: block;
+    font-weight: 500;
+    font-size: 18px;
+    color: #8987A1;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: .5s;
+}
+.socile-link ul li:hover a{
+    color: #4E47FF;
 }
